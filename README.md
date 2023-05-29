@@ -8,7 +8,7 @@ yarn add -D git@github.com:flerouwu/prettier-config
 ```
 
 2. Update to `package.json`
-```json
+```json5
 {
 	// ...
 	"prettier": "@flerouwu/prettier-config",
