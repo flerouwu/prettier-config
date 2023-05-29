@@ -2,8 +2,12 @@
 	"name": "@flerouwu/prettier-config",
 	"version": "1.0.0",
 	"description": "My (flerouwu)'s prettier config for projects.",
-	"main": ".prettierrc.json",
+	"main": "prettier.config.js",
 	"author": "Flero <flero@flero.dev>",
 	"repository": "git@github.com:flerouwu/prettier-config",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"@types/prettier": "^2.7.2",
+		"prettier": "^2.8.8"
+	}
 }
