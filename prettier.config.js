@@ -1,4 +1,4 @@
-/// <reference types="prettier" />
+/** @type {import("prettier").Config} */
 module.exports = {
 	semi: false,
 	singleQuote: false,
