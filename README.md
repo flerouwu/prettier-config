@@ -15,3 +15,11 @@ yarn add -D ssh://git@github.com:flerouwu/prettier-config
 	// ...
 }
 ```
+
+3. Or update `prettier.config.js`
+```js
+module.exports = {
+	...require('@flerouwu/prettier-config'),
+	// ...
+}
+```
