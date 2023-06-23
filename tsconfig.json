@@ -1,12 +1,11 @@
 {
 	"compilerOptions": {
-		"declaration": true,
-		"outDir": "dist",
 		"module": "commonjs",
 		"target": "es5",
-		//"noEmit": true,
 		"allowJs": true,
-		"checkJs": true
+		"checkJs": true,
+		"declaration": true,
+		"emitDeclarationOnly": true
 	},
 	"include": [
 		"./prettier.config.js"
