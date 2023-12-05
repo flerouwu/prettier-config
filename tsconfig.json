@@ -1,13 +1,14 @@
 {
 	"compilerOptions": {
-		"module": "commonjs",
-		"target": "es5",
+		"target": "ESNext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
 		"allowJs": true,
 		"checkJs": true,
 		"declaration": true,
 		"emitDeclarationOnly": true
 	},
 	"include": [
-		"./prettier.config.js"
+		"prettier.config.mjs"
 	]
 }
