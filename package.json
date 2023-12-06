@@ -1,12 +1,13 @@
 {
 	"name": "@flerouwu/prettier-config",
-	"version": "1.0.0",
+	"version": "2.0.1",
 	"description": "My (flerouwu)'s prettier config for projects.",
 	"author": "Flero <flero@flero.dev>",
-	"repository": "git@github.com:flerouwu/prettier-config",
+	"repository": "https://github.com/flerouwu/prettier-config",
 	"license": "Unlicense",
-	"main": "prettier.config.mjs",
+	"main": "prettier.config.cjs",
 	"module": "prettier.config.mjs",
+	"types": "prettier.config.d.ts",
 	"type": "module",
 	"scripts": {
 		"build": "tsc -p tsconfig.json"
