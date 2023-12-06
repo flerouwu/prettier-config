@@ -6,9 +6,11 @@
 		"allowJs": true,
 		"checkJs": true,
 		"declaration": true,
-		"emitDeclarationOnly": true
+		"emitDeclarationOnly": true,
+		"outFile": "prettier.config"
 	},
 	"include": [
+		"prettier.config.cjs",
 		"prettier.config.mjs"
 	]
 }
