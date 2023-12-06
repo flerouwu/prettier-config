@@ -5,7 +5,8 @@
 	"author": "Flero <flero@flero.dev>",
 	"repository": "git@github.com:flerouwu/prettier-config",
 	"license": "Unlicense",
-	"main": "prettier.config.js",
+	"main": "prettier.config.mjs",
+	"module": "prettier.config.mjs",
 	"type": "module",
 	"scripts": {
 		"build": "tsc -p tsconfig.json"
